@@ -1,0 +1,30 @@
+body{
+  background-color: #b3ccff;
+}
+h1{
+  font-size: 100px;
+  color: white;
+}
+h2{
+  font-size: 40px;
+  color: #d18017;
+}
+h3{
+  color: #3e4948;
+}
+header{
+  border-bottom: 5px solid gray;
+  padding: 50px;
+}
+nav{
+  border-right: 5px solid gray;
+  width: 300px;
+  height: 1000px;
+  float:left;
+  padding: 50px;
+}
+article{
+  float: left;
+  padding: 50px;
+  width: 500px;
+}
