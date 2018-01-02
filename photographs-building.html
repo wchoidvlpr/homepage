@@ -9,28 +9,22 @@
     <header>
       <h1>Photographs</h1>
     </header>
-    <nav>
+    <div id="grid">
       <ol>
-        <h2>
-          <li><a href="purpose.html">Purpose</a></li>
-          <li><a href="profile.html">Profile</a></li>
-          <li><a href="photographs.html">Photographs</a></li>
-          <ul>
-            <li><a href="photographs-sky.html">Sky</a></li>
-            <li>Building</li>
-            <li><a href="photographs-food.html">Food</a></li>
-          </ul>
-        </h2>
+        <li><a href="purpose.html">Purpose</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="photographs.html" id="active">Photographs</a></li>
       </ol>
-    </nav>
-    <article>
-      <p>
-        <h2>
-          Building
-        </h2>
-        <img src="img/downtown-minneapolis.jpg" alt="Downtown Minneapolis" width="50%">
-        <img src="img/usbank-stadium.jpg" alt="US Bank Stadium" width="80%">
-      </p>
-    </article>
+      <ul class="photolist">
+        <li><a href="photographs-sky.html">Sky</a></li>
+        <li><a href="photographs-building.html" id="active">Building</a></li>
+        <li><a href="photographs-food.html">Food</a></li>
+      </ul>
+      <article>
+        <h2>Building</h2>
+        <p><img src="img/downtown-minneapolis.jpg" alt="Downtown Minneapolis" width="50%">
+        <img src="img/usbank-stadium.jpg" alt="US Bank Stadium" width="80%"></p>
+      </article>
+    </div>
   </body>
 </html>

@@ -9,27 +9,21 @@
     <header>
       <h1>Photographs</h1>
     </header>
-    <nav>
+    <div id="grid">
       <ol>
-        <h2>
-          <li><a href="purpose.html">Purpose</a></li>
-          <li><a href="profile.html">Profile</a></li>
-          <li><a href="photographs.html">Photographs</a></li>
-          <ul>
-            <li>Sky</li>
-            <li><a href="photographs-building.html">Building</a></li>
-            <li><a href="photographs-food.html">Food</a></li>
-          </ul>
-        </h2>
+        <li><a href="purpose.html">Purpose</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="photographs.html" id="active">Photographs</a></li>
       </ol>
-    </nav>
-    <article>
-      <p>
-        <h2>
-          Sky
-        </h2>
-        <img src="img/sky-1.jpg" alt="Sky-1" width="50%">
-      </p>
-    </article>
+      <ul class="photolist">
+        <li><a href="photographs-sky.html" id="active">Sky</a></li>
+        <li><a href="photographs-building.html">Building</a></li>
+        <li><a href="photographs-food.html">Food</a></li>
+      </ul>
+      <article>
+        <h2>Sky</h2>
+        <p><img src="img/sky-1.jpg" alt="Sky-1" width="50%"></p>
+      </article>
+    </div>
   </body>
 </html>
