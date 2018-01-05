@@ -30,16 +30,46 @@ a{
 color: #3e4948;
 text-decoration: none;
 }
-#grid ol {
-  border-right: 5px solid gray;
-  width: 100px;
-  margin: 0;
-  padding: 20px;
-  padding-left: 33px;
+#grid .tree{
+  color: #3e4948;
 }
-.photolist {
+#grid .tree label{
+  cursor: pointer;
+}
+#grid .tree ul{
+  list-style: none;
+  padding-left: 17px;
+}
+#grid .tree *:before{
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+}
+#grid .tree label:before{
+  content: "\f256";
+  font-family: fontello;
+}
+#grid .tree a{
+  text-decoration: none;
+}
+#grid .tree a:before{
+  content: "\e800";
+  font-family: fontello;
+}
+#grid .tree input[type=checkbox]{
+  display: none;
+}
+#grid .tree input[type=checkbox]:checked~ul{
+  display: none;
+}
+#grid .tree input[type=checkbox]:checked+label:before{
+  content: "\f255";
+  font-family: fontello;
+}
+#grid ol {
+  list-style: none;
   border-right: 5px solid gray;
-  width: 100px;
+  width: 130px;
   margin: 0;
   padding: 20px;
   padding-left: 33px;
@@ -53,7 +83,7 @@ text-decoration: none;
 }
 #grid {
   display: grid;
-  grid-template-columns: 150px 1fr 1fr;
+  grid-template-columns: 180px 1fr;
 }
 #grid article {
   padding-top: 20px;

@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="tree_fontello/css/fontello.css">
     <title>WChoi - Photographs</title>
   </head>
   <body>
@@ -13,13 +14,16 @@
       <ol>
         <li><a href="purpose.html">Purpose</a></li>
         <li><a href="profile.html">Profile</a></li>
-        <li><a href="photographs.html" id="active">Photographs</a></li>
+        <li class="tree">
+          <input type="checkbox" id="photographs">
+          <label for="photographs">Photographs</label>
+          <ul>
+            <li><a href="photographs-sky.html" id="active">Sky</a></li>
+            <li><a href="photographs-building.html">Building</a></li>
+            <li><a href="photographs-food.html">Food</a></li>
+          </ul>
+        </li>
       </ol>
-      <ul class="photolist">
-        <li><a href="photographs-sky.html" id="active">Sky</a></li>
-        <li><a href="photographs-building.html">Building</a></li>
-        <li><a href="photographs-food.html">Food</a></li>
-      </ul>
       <article>
         <h2>Sky</h2>
         <p><img src="img/sky-1.jpg" alt="Sky-1" width="50%"></p>
